@@ -1,0 +1,359 @@
+.btn-main, .btn-main-s {
+  background-color: #0075FF;
+  color: white;
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  border: solid 1px #0075FF;
+}
+.btn-main:hover, .btn-main-s:hover {
+  background-color: white;
+  color: #0075FF;
+}
+.btn-main-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+.btn-sec, .btn-sec-s {
+  background-color: #0075FF;
+  color: white;
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  border: solid 1px #0075FF;
+  color: black;
+  background-color: transparent;
+  border: none;
+}
+.btn-sec:hover, .btn-sec-s:hover {
+  background-color: white;
+  color: #888;
+}
+.btn-sec-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+.main-menu {
+  margin-bottom: 0;
+}
+.main-menu li {
+  font-size: 0.85rem;
+  list-style: none;
+  display: inline;
+  padding: 0.5rem;
+}
+.main-menu li a {
+  color: black;
+  text-decoration: none;
+}
+.main-menu li a:hover {
+  text-decoration: underline;
+}
+
+.icon-sm i {
+  font-size: 1.25rem;
+  padding: 0.4rem 0.65rem;
+  color: #0075FF;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2509803922);
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+}
+.feature .icon {
+  color: #0075FF;
+  font-size: 15rem;
+  text-align: center;
+}
+.feature .description .title {
+  font-size: 2rem;
+  text-align: center;
+}
+.feature .description .text {
+  color: #888;
+  font-weight: 600;
+  text-align: center;
+}
+.feature .cta {
+  margin-top: 3rem;
+  color: #0075FF;
+  font-weight: 600;
+  text-align: center;
+}
+
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon-desc .icon {
+  color: #0075FF;
+  font-size: 10rem;
+  padding: 0;
+}
+.icon-desc .title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: -1.75rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 4rem;
+  border-bottom: solid 1px #ddd;
+  background-color: rgb(250, 250, 250);
+}
+@media (max-width: 765px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.logo img {
+  width: 7rem;
+  height: 4rem;
+}
+
+.sec-home {
+  display: flex;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  align-items: center;
+  margin: auto;
+  margin-top: 2rem;
+}
+.sec-home .home-cta, .sec-home .sec-footer-cta {
+  margin-left: 7rem;
+  flex: 1;
+}
+.sec-home .home-cta .cta-text, .sec-home .sec-footer-cta .cta-text {
+  color: #0075FF;
+}
+.sec-home .home-cta .cta-text .link, .sec-home .sec-footer-cta .cta-text .link {
+  text-decoration: none;
+}
+.sec-home .home-cta .cta-text .link:hover, .sec-home .sec-footer-cta .cta-text .link:hover {
+  text-decoration: underline;
+  color: #0075FF;
+}
+.sec-home .home-cta .home-title, .sec-home .sec-footer-cta .home-title {
+  width: 30rem;
+  color: black;
+  font-size: 4.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.sec-home .home-cta .home-description, .sec-home .sec-footer-cta .home-description {
+  color: black;
+  max-width: 450px;
+}
+.sec-home .home-img img {
+  height: 25rem;
+  margin-left: 1rem;
+}
+@media (max-width: 1200px) {
+  .sec-home {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec-home .home-img img {
+    margin-top: 2rem;
+  }
+}
+
+.sec-features, .sec-onboarding, .sec-kpis, .sec-benefits {
+  display: flex;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.sec-features .intro, .sec-onboarding .intro, .sec-kpis .intro, .sec-benefits .intro {
+  text-align: center;
+}
+.sec-features .intro h3, .sec-onboarding .intro h3, .sec-kpis .intro h3, .sec-benefits .intro h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.sec-features .intro p, .sec-onboarding .intro p, .sec-kpis .intro p, .sec-benefits .intro p {
+  font-size: 1rem;
+  color: #888;
+}
+.sec-features .features, .sec-onboarding .features, .sec-kpis .features, .sec-benefits .features {
+  margin-top: 3rem;
+}
+.sec-features .features .text .feature, .sec-onboarding .features .text .feature, .sec-kpis .features .text .feature, .sec-benefits .features .text .feature {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 30%;
+}
+.sec-features .features .text .feature .description, .sec-onboarding .features .text .feature .description, .sec-kpis .features .text .feature .description, .sec-benefits .features .text .feature .description {
+  margin-left: 1rem;
+  min-width: 340px;
+}
+.sec-features .features .text .feature .description .title, .sec-onboarding .features .text .feature .description .title, .sec-kpis .features .text .feature .description .title, .sec-benefits .features .text .feature .description .title {
+  font-size: 1.75rem;
+}
+.sec-features .features .text .feature .description .text, .sec-onboarding .features .text .feature .description .text, .sec-kpis .features .text .feature .description .text, .sec-benefits .features .text .feature .description .text {
+  font-size: 1rem;
+}
+.sec-features .features .image, .sec-onboarding .features .image, .sec-kpis .features .image, .sec-benefits .features .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec-features .features .image .img, .sec-onboarding .features .image .img, .sec-kpis .features .image .img, .sec-benefits .features .image .img {
+  height: 22rem;
+}
+
+.sec-benefits {
+  display: flex;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  align-items: center;
+  margin: auto;
+}
+.sec-benefits .reasons {
+  width: 100%;
+}
+.sec-benefits .reasons .reason {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 4rem;
+  margin-bottom: 1rem;
+}
+.sec-benefits .reasons .reason .icon {
+  margin-bottom: 2rem;
+}
+.sec-benefits .reasons .reason .icon i {
+  color: #0075FF;
+  font-size: 6rem;
+  padding: 0;
+}
+.sec-benefits .reasons .reason .foot {
+  color: #0075FF;
+}
+.sec-benefits .reasons .reason .foot a {
+  text-decoration: none;
+}
+.sec-benefits .reasons .reason .foot a:hover {
+  text-decoration: underline;
+  color: #0075FF;
+}
+
+.sec-kpis {
+  display: flex;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  align-items: center;
+  margin: auto;
+  background-color: #0075FF;
+  width: 100%;
+}
+.sec-kpis .kpi {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.sec-kpis .kpi .text {
+  text-align: center;
+  color: white;
+}
+.sec-kpis .kpi .text h3 {
+  font-size: 2.5rem;
+}
+.sec-kpis .kpi .text p {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+.sec-onboarding {
+  display: flex;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  align-items: center;
+  margin: auto;
+  margin-top: 2rem;
+}
+.sec-onboarding .steps {
+  width: 100%;
+  align-items: center;
+}
+.sec-onboarding .steps .step, .sec-onboarding .steps .step-separator {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 4rem;
+}
+.sec-onboarding .steps .step i, .sec-onboarding .steps .step-separator i {
+  color: #0075FF;
+  font-size: 5rem;
+}
+.sec-onboarding .steps .step h3, .sec-onboarding .steps .step-separator h3 {
+  font-size: 1.15rem;
+  margin-top: 1rem;
+}
+.sec-onboarding .steps .step-separator {
+  background-color: #888;
+  height: 2px;
+}
+
+.sec-footer-cta {
+  display: flex;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  align-items: center;
+  margin: auto;
+  background-color: rgb(250, 250, 250);
+  border-top: solid 1px #ddd;
+}
+.sec-footer-cta .cta-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sec-footer-cta .cta-text h2 {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
